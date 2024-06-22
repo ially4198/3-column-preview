@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+body div{
+    width: 300px;
+    height: 450px;
+    background-color: black;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:grey;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+h1{
+    margin-left:50px ;
+    font-family: Big Shoulders Display;
+    padding-top: 15px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    margin-left: 50px;
+    width:65%;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+button{
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 55%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+}
+.sedan{
+    border-radius: 5px 0 0 5px;
+}
+.lux{
+    border-radius: 0 5px 5px 0;
+}
+@media screen and (max-width:780px){
+    body{
+        flex-direction: column;
+    }
+    button{
+        margin-top: 20px;
+    }
+    .sedan{
+        border-radius: 5px 5px 0 0;
+    }
+    .lux{
+        border-radius: 0 0 5px 5px;
+    }
+}
