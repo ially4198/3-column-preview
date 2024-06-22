@@ -52,6 +52,9 @@ button{
 @media screen and (max-width:780px){
     body{
         flex-direction: column;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     button{
         margin-top: 20px;
@@ -63,5 +66,10 @@ button{
     .lux{
         border-radius: 0 0 5px 5px;
     }
-    
+    body div{
+        height: 350px;
+    }
+    .circle{
+        margin-top:20px ;
+    }
 }
