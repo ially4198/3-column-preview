@@ -55,6 +55,7 @@ button{
     }
     button{
         margin-top: 20px;
+        margin-bottom: 30px;
     }
     .sedan{
         border-radius: 5px 5px 0 0;
@@ -62,4 +63,5 @@ button{
     .lux{
         border-radius: 0 0 5px 5px;
     }
+    
 }
